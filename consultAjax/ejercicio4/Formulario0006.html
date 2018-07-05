@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>procesar data enviada por usuarios</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../CSS/estilos006.css"> -->
+	<!-- <link rel="icon" type="image/png" href="../imagenes/buscar.png"> -->
+</head>
+<body>
+	<div>
+		<form name="formulario0006" id="formulario" accept-charset="utf-8">
+			<input type="radio" name="colores" value="amarillo">amarillo<br>		                          
+			<input type="radio" name="colores" value="rojo" >rojo<br> 	          
+			<input type="radio" name="colores" value="verde" >verde<br>
+
+			<!-- <input type="submit" value="enviar" name="enviar"> -->
+			<button type="button" name="enviar" value="envio" onclick="peticionAsincronica()">send</button>
+			<input type="reset" value="restablecer" name="restablecer">
+		</form>
+	</div>
+	<div id="contenedor" style="border:solid blue;">aqui la respuesta del servidor via ajax</div>
+<script type="text/javascript" src="script4.js"></script>
+</body>
+</html>

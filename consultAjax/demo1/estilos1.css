@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+}
+div#contenedor{
+	background-color: #fcfcfc;
+	width: 50%;
+	margin: auto;
+	border: solid lightgreen;
+	border-radius:5px;
+}
+
+div#contenedor2{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	background-color: lightgreen;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	overflow: auto;
+
+}
+
+button{
+	border: none;
+	border-radius: 5px;
+	background-color: lightgreen;
+	padding: 2px;
+	margin: 10px;
+}
+
+input[type="text"]{
+	margin: 10px;
+	outline: none;
+}
+
+input[type="text"]:focus{
+	outline: solid lightgreen;
+}

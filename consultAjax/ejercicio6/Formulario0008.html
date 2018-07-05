@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>procesar informacion</title>
+	<link rel="stylesheet" type="text/css" href="../../../CSS/estilos008.css">
+	<link rel="icon" type="image/png" href="../imagenes/buscar.png">
+</head>
+<body>
+	<div class="row" id="firstrow">
+		<div class="col-3" id="tresceldas">3</div>
+		<div class="col-9" id="nueveceldas">9</div>
+	</div>
+	<div class="row" id="secondrow">
+		<div class="col-6" id="seisceldas">
+			<form name="formulario" >
+				<select name="mes">                                            
+					<option value="" selected>seleccione un mes</option>       
+					<option value=1>enero</option>							 
+					<option value=2>febrero</option>						   
+					<option value=3>marzo</option>                           
+				</select>
+				<button type="button" onclick="peticionAjax()">send</button>
+				<input type="reset" value="restablecer" name="restablecer">
+			</form>
+			<div id="contenedor">
+				aqui la respuesta del servidor
+			</div>
+		</div>
+		<div class="col-4" id="cuatroceldas">4</div>
+		<div class="col-2" id="dosceldas">2</div>
+	</div>
+	<script type="text/javascript" src="script6.js"></script>
+</body>
+</html>
