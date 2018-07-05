@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>todo lo que tienes que saber sobre arreglos </title>
+	<script>
+		var arreglo=[0,1,2,3,4,5,6,7,8,9];
+		var diasSemana = new Array("Lunes","Martes","Miércoles,","Jueves","Viernes","Sábado","Domingo")
+		var temperaturas_cuidades = new Array(new Array (12,10,11), new Array(5,0,2),new Array(10,8,10))
+		var arrayMuchasDimensiones = [1, ["hola", "que", "tal", ["estas", "estamos", "estoy"], ["bien", "mal"], "acabo"], 2, 5];
+		var arreglo2= new Array();//declaracion array vacio haciendo uso del objeto array
+		arreglo2[0]='more than words';
+		arreglo2[1]='someone like you';
+		window.alert('los valores del arreglo van desde '+arreglo[0]+' hasta '+arreglo[9]);
+		window.alert(diasSemana[1]);
+		window.alert(temperaturas_cuidades[0][2]);
+		alert (arrayMuchasDimensiones[0])//1
+		alert (arrayMuchasDimensiones[1][2])//tal
+		alert (arrayMuchasDimensiones[1][3][1])//estas		
+		window.alert(arreglo2[0]+arreglo2[1]);
+	</script>
+</head>
+<body onload="alert('la pagina esta cargando...!')" style="background-image:url(../ImagenesWeb/keithtinadavidbowie.jpg)">
+	<script>
+		document.write("bienvenido a mi pagina oficial de programacion FrontEnd");
+	</script>
+</body>
+</html>

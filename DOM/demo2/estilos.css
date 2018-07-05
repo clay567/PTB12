@@ -1,0 +1,21 @@
+h1{
+	border-bottom-style: groove;
+	border-bottom-color: tomato;
+	border-bottom-width: 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+ul{
+	border: solid red;
+}
+div#contenedor{
+	border: solid hsla(300,50%,50%,0.9);
+}
+
+div#contenedor2{
+	border: solid hsla(150,70%,50%,0.7);
+}
+
+div#contenedor3{
+	border: solid hsla(240,50%,90%,1);
+}

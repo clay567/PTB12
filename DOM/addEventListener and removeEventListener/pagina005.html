@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOM eventos addeventelistener y removeeventlistener</title>
+</head>
+<body>
+	<!-- <button id="boton">boton</button> -->
+	<a id="boton" href="https://www.youtube.com">link to youtube</a>
+	<input type="text" name="" id="input">
+	<script type="text/javascript">
+	(function(){
+		var saludo1=function(e){
+			console.log("saludo1!"+e.type);
+			e.preventDefault();
+		};
+
+		/*var saludo2=function(e){
+			console.log("saludo2!"+e.target);	
+		};*/
+
+		var boton=document.getElementById("boton");
+		boton.addEventListener("click",saludo1);
+		//boton.addEventListener("click",saludo2);
+		//boton.removeEventListener("click",saludo1);
+	}());
+	</script>
+</body>
+</html>

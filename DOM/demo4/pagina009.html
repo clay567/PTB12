@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>acceso a los atributos del dom</title>
+	<style type="text/css">
+		div{
+			width: 200px;
+			height: 200px;
+			background-color: #DDDDDD;
+			display: inline-block;
+			margin-right: ;
+			border: 1px solid  #AAAAAA;
+		}
+
+		.azul{
+			background-color: #0074D9;
+			border: 1px solid #000;
+
+		}
+		.rojo{
+			background-color: #ff4136;
+			border: 1px solid #000;
+		}
+	</style>
+</head>
+<body>
+	<section id="contenedor">
+		<a href="https://www.youtube.com" id="enlace">ir a</a>
+		<div class=""></div>
+		<div class=""></div>
+	</section>
+	<script type="text/javascript">
+		var elemento=document.createElement('div');
+		var padre=document.getElementById('contenedor');
+		var referencia=document.getElementsByTagName('div')[0];
+		padre.insertBefore(elemento,referencia);
+		elemento.setAttribute('class','azul');
+		
+	</script>
+</body>
+</html>

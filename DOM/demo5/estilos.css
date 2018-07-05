@@ -1,0 +1,8 @@
+ol#lista{
+	border: solid lightblue;
+	list-style-type: upper-alpha;
+}
+
+div#div1{
+	border: solid yellow;
+}

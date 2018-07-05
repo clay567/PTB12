@@ -1,0 +1,17 @@
+h1{
+	border: 20px groove blue;
+	font-variant: small-caps;
+	font-size: 20px;
+}
+
+div#header{
+	border: solid tomato;
+}
+
+p{
+	text-align: center;
+}
+
+ul{
+	border: solid darkgreen;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOM HTML</title>
+	<style type="text/css">
+		.thumb{
+			width: 200px;
+			transition: 300ms all ease;
+		}
+
+		.titulo{
+			background-color: #ccc;
+			border: 1px solid navy;
+			padding: 10px;
+		}
+
+		.grande{
+			width: 400px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<input type="button" name="" value="cambio de tamaño" onclick="zoom();">
+	</form>
+	<img src="DOM.png" width="400" alt="miImagen" class="thumb" id="thumb">
+	<script type="text/javascript">
+	//element.className:Establece o devuelve el valor del atributo class de un elemento
+		var zoom=function(){
+			var thumb=document.getElementById("thumb");
+			if (thumb.className=="thumb") {
+				thumb.className="thumb grande";
+			}else{
+				thumb.className="thumb";
+			}			
+		};
+	</script>
+</body>
+</html>

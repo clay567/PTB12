@@ -1,0 +1,8 @@
+ol#lista{
+	border: solid darkgreen;
+	list-style-type: lower-roman;
+}
+
+ul#lista2{
+	border: solid darkblue;
+}
